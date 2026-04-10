@@ -166,9 +166,10 @@ export default async function BlogPostPage({ params }: Props) {
                 <Image
                   src={post.author.avatar_url}
                   alt={post.author.name}
-                  width={64}
-                  height={64}
+                  width={112}
+                  height={112}
                   style={{ borderRadius: "50%", objectFit: "cover", flexShrink: 0 }}
+                quality={95}
                 />
               )}
               <div>
